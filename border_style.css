@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;  
+    background-image: linear-gradient(to right, rgb(255, 106, 0), rgba(255, 0, 0, 0.986));
+    padding: 30px;
+    /* margin: 20px; */
+}
+
+.border1{
+    border: 6px none white;
+    text-align: center;
+    padding: 40px;
+}
+.border2{
+    border: 6px dotted white;
+    text-align: center;
+    padding: 40px;
+}
+.border3{
+    border: 6px dashed white;
+    text-align: center;
+    padding: 40px;
+}
+.border4{
+    border: 6px solid white;
+    text-align: center;
+    padding: 40px;
+}
+.border5{
+    border: 6px double white;
+    text-align: center;
+    padding: 40px;
+}
+.border6{
+    border: 6px groove white;
+    text-align: center;
+    padding: 40px;
+}
+.border7{
+    border: 6px ridge white;
+    text-align: center;
+    padding: 40px;
+}
+.border8{
+    border: 6px inset white;
+    text-align: center;
+    padding: 40px;
+}
+.border9{
+    border: 6px outset white;
+    text-align: center;
+    padding: 40px;
+}
